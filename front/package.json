@@ -7,7 +7,7 @@
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview",
     "lint": "eslint --ext .ts,.vue --ignore-path ../.gitignore --fix src",
-    "format": "prettier . --write"
+    "format": "prettier \"*.{ts,vue}\" --write"
   },
   "dependencies": {
     "vue": "^3.2.25"

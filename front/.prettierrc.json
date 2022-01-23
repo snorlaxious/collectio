@@ -1,5 +1,4 @@
 {
-    "files": ["*.ts", "*.vue"],
     "semi": true,
     "singleQuote": true,
     "trailingComma": "all",
