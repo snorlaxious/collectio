@@ -1,4 +1,4 @@
-# collectio
+# collectio-front
 
 ## Project setup
 ```
