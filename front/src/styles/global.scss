@@ -1,0 +1,34 @@
+// 전역 설정
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html,
+body,
+div,
+p {
+    margin: 0;
+    overflow: hidden;
+}
+
+// 색상
+$collectio-rep: linear-gradient(
+    to bottom right,
+    rgb(40, 160, 90),
+    rgb(75, 61, 199)
+);
+
+// 클래스
+.gradient-border {
+    border-radius: 16px;
+    border: 10px solid transparent;
+    background-image: linear-gradient(white, white), $collectio-rep;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
+.shadowed-box {
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
