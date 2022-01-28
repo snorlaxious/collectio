@@ -13,6 +13,10 @@ p {
     overflow: hidden;
 }
 
+body {
+    font-size: 16px;
+}
+
 // 색상
 $collectio-rep: linear-gradient(
     to bottom right,
@@ -23,7 +27,7 @@ $collectio-rep: linear-gradient(
 // 클래스
 .gradient-border {
     border-radius: 16px;
-    border: 10px solid transparent;
+    border: 5px solid transparent;
     background-image: linear-gradient(white, white), $collectio-rep;
     background-origin: border-box;
     background-clip: content-box, border-box;
